@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #212121;
+}
+
+root {
+  --text-header: #212121;
+  --text-article: #757575;
+  --color-excent: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цет текста #757575 */
+/* белый */
+/* третий цвет rgba(255, 255, 255, 0.6*/
+/* акцент #2196F3 */
+
+.header-menu-item-textstyle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-menu-item-textstyle:hover {
+  color: #2196f3;
+}
+
+.header-menu-item-textstyle.current {
+  color: #2196f3;
+}
+
+.header-contacts-textstyle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-contacts-textstyle:hover {
+  color: #2196f3;
+}
+
+.projects-menu-item-textstyle a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--text-header);
+}
+.projects-menu-item-textstyle a:hover {
+  color: #2196f3;
+}
+
+.project-header-textstyle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.project-type-textstyle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.adress-textstyle {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contacts-textstyle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-h-textstyle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.main-h-textstyle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  width: 696px;
+  height: 120px;
+}
+
+.feature-h-textstyle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature-desription-textstyle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.we-do-description-textstyle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.playername-textstyle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.playerjob-textstyle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* Button */
